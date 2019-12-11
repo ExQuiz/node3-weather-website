@@ -1,5 +1,3 @@
-console.log("Client is open");
-
 const weatherForm = document.querySelector("form");
 const inputField = document.querySelector("input");
 const message1 = document.querySelector("#message1");
