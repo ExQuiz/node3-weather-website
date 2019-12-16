@@ -5,7 +5,7 @@ const message2 = document.querySelector("#message2");
 
 weatherForm.addEventListener("submit", e => {
   e.preventDefault();
-  const url = `http://localhost:3000/weather?address=${inputField.value}`;
+  const url = `/weather?address=${inputField.value}`;
   message1.textContent = "Loading ... ";
   message2.textContent = "";
 
